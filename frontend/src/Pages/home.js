@@ -38,10 +38,10 @@ const HomePage = () => {
     let count = { };
 
     for(let i = 0; i < arrayCategory.length; i++){
-        {
+        
             let key = arrayCategory[i];
             count[key] = (count[key] ? count[key] + 1 : 1)
-        }
+        
     }
 
     return(
